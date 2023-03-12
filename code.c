@@ -12,6 +12,7 @@ int main()
 
     // Boucle pour demander à l'utilisateur de deviner le nombre
     while (1) {
+        //printf(" %d ",nombre_secret);//pour le test
         int reponse;
         printf("Devinez le nombre (entre 0 et 100) : ");
         scanf("%d", &reponse);
